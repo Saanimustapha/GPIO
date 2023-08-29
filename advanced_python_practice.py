@@ -93,7 +93,9 @@ class Student(Person):
     def __init__(self,name,dateOfBirth,courseNames):
         super().__init__(name,dateOfBirth)
         self.courseNames = courseNames
-    def get_courses(self):
+    def get_courses():
         return courseNames
     def speak():
         print("I'm so tired!")
+        
+
